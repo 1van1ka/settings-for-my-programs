@@ -1,0 +1,23 @@
+{
+	"files.autoSave": "off",
+	
+	"editor.bracketPairColorization.enabled": false,
+	"editor.glyphMargin": false,
+	"editor.accessibilitySupport": "off",
+	"editor.minimap.enabled": false,
+	"editor.cursorStyle": "line",
+	"editor.cursorBlinking": "blink",
+	
+	"editor.fontSize": 23,
+    "terminal.integrated.fontSize": 17,
+
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+	
+    "workbench.activityBar.location": "top",
+	"workbench.layoutControl.enabled": false,
+	"workbench.colorTheme": "Monokai Dimmed",
+	
+	"cmake.showOptionsMovedNotification": false,
+	"debug.onTaskErrors": "debugAnyway"
+}
