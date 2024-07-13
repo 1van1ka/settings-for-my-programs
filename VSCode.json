@@ -5,6 +5,7 @@
 	"editor.glyphMargin": false,
 	"editor.accessibilitySupport": "off",
 	"editor.minimap.enabled": false,
+	"editor.folding": false,
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "blink",
 	
