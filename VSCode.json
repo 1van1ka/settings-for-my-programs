@@ -8,16 +8,17 @@
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "blink",
 	
+	"editor.lineHeight": 28,
 	"editor.fontSize": 23,
-    "terminal.integrated.fontSize": 17,
+    	"terminal.integrated.fontSize": 17,
 
 	"window.density.editorTabHeight": "compact",
 	"window.commandCenter": false,
 	
-    "workbench.activityBar.location": "top",
+	"workbench.activityBar.location": "top",
 	"workbench.layoutControl.enabled": false,
 	"workbench.colorTheme": "Monokai Dimmed",
-	
+
 	"cmake.showOptionsMovedNotification": false,
 	"debug.onTaskErrors": "debugAnyway"
 }
