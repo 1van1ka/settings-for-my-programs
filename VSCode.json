@@ -1,25 +1,29 @@
 {
-	"files.autoSave": "off",
-	
+	"files.autoSave": "afterDelay",
+	"debug.onTaskErrors": "debugAnyway",
+
 	"editor.bracketPairColorization.enabled": false,
-	"editor.glyphMargin": false,
 	"editor.accessibilitySupport": "off",
 	"editor.minimap.enabled": false,
 	"editor.folding": false,
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "blink",
-	
 	"editor.lineHeight": 28,
-	"editor.fontSize": 23,
-    	"terminal.integrated.fontSize": 17,
+	"editor.fontSize": 20,
 
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.fontSize": 17,
+	
+	"explorer.compactFolders": false,
+	
 	"window.density.editorTabHeight": "compact",
 	"window.commandCenter": false,
-	
 	"workbench.activityBar.location": "top",
+	"workbench.colorTheme": "Gruvbox Dark Hard",
 	"workbench.layoutControl.enabled": false,
-	"workbench.colorTheme": "Monokai Dimmed",
-
+	
+	"zenMode.hideActivityBar": false,
 	"cmake.showOptionsMovedNotification": false,
-	"debug.onTaskErrors": "debugAnyway"
+
+	"git.autoRepositoryDetection": false,
 }
