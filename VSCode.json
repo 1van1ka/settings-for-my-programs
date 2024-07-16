@@ -8,7 +8,7 @@
 	"editor.folding": false,
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "blink",
-	"editor.lineHeight": 28,
+	"editor.lineHeight": 26,
 	"editor.fontSize": 20,
 
 	"terminal.integrated.tabs.enabled": false,
