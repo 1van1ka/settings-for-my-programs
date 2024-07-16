@@ -1,29 +1,32 @@
 {
 	"files.autoSave": "afterDelay",
 	"debug.onTaskErrors": "debugAnyway",
-
+	
 	"editor.bracketPairColorization.enabled": false,
 	"editor.accessibilitySupport": "off",
 	"editor.minimap.enabled": false,
 	"editor.folding": false,
 	"editor.cursorStyle": "line",
 	"editor.cursorBlinking": "blink",
+	"editor.stickyScroll.enabled": false,
 	"editor.lineHeight": 26,
 	"editor.fontSize": 20,
-
-	"terminal.integrated.tabs.enabled": false,
-	"terminal.integrated.fontSize": 17,
 	
 	"explorer.compactFolders": false,
 	
 	"window.density.editorTabHeight": "compact",
 	"window.commandCenter": false,
-	"workbench.activityBar.location": "top",
-	"workbench.colorTheme": "Gruvbox Dark Hard",
+	"workbench.activityBar.location": "hidden",
 	"workbench.layoutControl.enabled": false,
+	"workbench.colorTheme": "Gruvbox Dark Hard",
+	
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.tabs.location": "left",
+	"terminal.integrated.fontSize": 17,
+	
+	"git.autoRepositoryDetection": false,
 	
 	"zenMode.hideActivityBar": false,
 	"cmake.showOptionsMovedNotification": false,
-
-	"git.autoRepositoryDetection": false,
+	"workbench.sideBar.location": "left"
 }
