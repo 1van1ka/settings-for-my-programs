@@ -10,6 +10,7 @@
 	"editor.cursorBlinking": "blink",
 	"editor.stickyScroll.enabled": false,
 	"editor.lineHeight": 26,
+	"editor.fontFamily": "Consolas",
 	"editor.fontSize": 20,
 	"window.zoomLevel": 0,
 	
