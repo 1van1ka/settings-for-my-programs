@@ -3,8 +3,8 @@
 	"editor.accessibilitySupport": "off",
 	"editor.minimap.enabled": false,
 	"editor.folding": false,
-	"editor.cursorStyle": "line",
-	"editor.cursorBlinking": "blink",
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorBlinking": "solid",
 	"editor.tabSize": 3,
 	"editor.stickyScroll.enabled": false,
 	"editor.lineHeight": 26,
@@ -13,6 +13,7 @@
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"explorer.compactFolders": false,
+	"editor.glyphMargin": false,
 
 	"window.zoomLevel": 0,
 	"window.density.editorTabHeight": "compact",
@@ -28,12 +29,12 @@
 	"terminal.integrated.fontSize": 17,
 	"terminal.integrated.lineHeight": 1.1,
 	
+	"debug.onTaskErrors": "debugAnyway",
+	"files.autoSave": "afterDelay",
+	
 	"git.autoRepositoryDetection": false,
 	"cmake.showOptionsMovedNotification": false,
-	
 	"breadcrumbs.enabled": false,
 	"telemetry.telemetryLevel": "crash",
-	"debug.onTaskErrors": "debugAnyway",
 	"zenMode.hideActivityBar": false,
-	"files.autoSave": "afterDelay"
 }
