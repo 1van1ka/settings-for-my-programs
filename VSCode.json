@@ -1,11 +1,8 @@
 {
-	"editor.bracketPairColorization.enabled": false,
-	"editor.accessibilitySupport": "off",
 	"editor.minimap.enabled": false,
 	"editor.folding": false,
 	"editor.cursorStyle": "line-thin",
 	"editor.cursorBlinking": "solid",
-	"editor.tabSize": 3,
 	"editor.stickyScroll.enabled": false,
 	"editor.lineHeight": 26,
 	"editor.fontFamily": "Consolas, monospace",
