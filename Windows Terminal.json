@@ -32,10 +32,12 @@
     "centerOnLaunch": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+    "defaultProfile": "{51855cb2-8cce-5362-8f54-464b92b32386}",
     "experimental.rendering.forceFullRepaint": true,
     "firstWindowPreference": "persistedWindowLayout",
-    "initialPosition": ",",
+    "initialCols": 100,
+    "initialPosition": "100,50",
+    "initialRows": 40,
     "language": "en-US",
     "newTabMenu": 
     [
@@ -58,7 +60,7 @@
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "cmd"
+                "name": "Command line"
             },
             {
                 "colorScheme": "Tango Dark",
