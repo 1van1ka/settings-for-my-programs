@@ -4,4 +4,4 @@ Profile settings of VSCode in the file
 
 Profile settings of terminal in the file
 1. `ctrl+,` - open settings
-2. open settings in file  of json.
+2. click button  `Open JSON file  `.
