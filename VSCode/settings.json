@@ -1,0 +1,38 @@
+{
+	"editor.minimap.enabled": false,
+	"editor.folding": false,
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorBlinking": "solid",
+	"editor.stickyScroll.enabled": false,
+	"editor.lineHeight": 26,
+	"editor.fontFamily": "Consolas, monospace",
+	"editor.fontSize": 20,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"explorer.compactFolders": false,
+	"editor.glyphMargin": false,
+
+	"window.zoomLevel": 0,
+	"window.density.editorTabHeight": "compact",
+	"window.commandCenter": false,
+	
+	"workbench.activityBar.location": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.sideBar.location": "left",
+	"workbench.iconTheme": "gruvbox-icon-theme",
+	
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.fontSize": 17,
+	"terminal.integrated.lineHeight": 1.1,
+	
+	"debug.onTaskErrors": "debugAnyway",
+	"files.autoSave": "afterDelay",
+	
+	"git.autoRepositoryDetection": false,
+	"cmake.showOptionsMovedNotification": false,
+	"breadcrumbs.enabled": false,
+	"telemetry.telemetryLevel": "crash",
+	"zenMode.hideActivityBar": false,
+	"security.workspace.trust.banner": "never",
+	"workbench.startupEditor": "none"
+}
