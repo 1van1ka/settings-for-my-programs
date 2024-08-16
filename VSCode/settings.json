@@ -28,7 +28,6 @@
 	
 	"code-runner.runInTerminal": true,
 	
-	"debug.onTaskErrors": "debugAnyway",
 	"files.autoSave": "afterDelay",
 	
 	"git.autoRepositoryDetection": false,
