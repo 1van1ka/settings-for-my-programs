@@ -5,12 +5,12 @@
 	"editor.cursorBlinking": "solid",
 	"editor.stickyScroll.enabled": false,
 	"editor.lineHeight": 26,
-	"editor.fontFamily": "Consolas, monospace",
+	"editor.fontFamily": "Consolas, monospace, Cascadia Code",
 	"editor.fontSize": 20,
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
-	"explorer.compactFolders": false,
 	"editor.glyphMargin": false,
+	"explorer.compactFolders": false,
 
 	"window.zoomLevel": 0,
 	"window.density.editorTabHeight": "compact",
@@ -24,15 +24,18 @@
 	"terminal.integrated.tabs.enabled": false,
 	"terminal.integrated.fontSize": 17,
 	"terminal.integrated.lineHeight": 1.1,
+	"terminal.integrated.fontFamily": "Cascadia Code",
+	
+	"code-runner.runInTerminal": true,
 	
 	"debug.onTaskErrors": "debugAnyway",
 	"files.autoSave": "afterDelay",
 	
 	"git.autoRepositoryDetection": false,
-	"cmake.showOptionsMovedNotification": false,
 	"breadcrumbs.enabled": false,
 	"telemetry.telemetryLevel": "crash",
 	"zenMode.hideActivityBar": false,
 	"security.workspace.trust.banner": "never",
-	"workbench.startupEditor": "none"
+	"workbench.startupEditor": "none",
+	"extensions.ignoreRecommendations": true,
 }
