@@ -26,7 +26,6 @@
                 "code-runner.run",
                 "terminal.focus"
             ]
-
         },
         "when": "editorTextFocus"
     }
