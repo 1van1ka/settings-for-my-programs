@@ -10,11 +10,12 @@
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"editor.glyphMargin": false,
-	"explorer.compactFolders": false,
+	"editor.wordWrap": "on",
 	
 	"window.zoomLevel": 0,
 	"window.density.editorTabHeight": "compact",
 	"window.commandCenter": false,
+	"window.restoreFullscreen": true,
 	
 	"workbench.activityBar.location": "top",
 	"workbench.layoutControl.enabled": false,
@@ -29,6 +30,8 @@
 	
 	"breadcrumbs.enabled": false,
 	
+	"explorer.compactFolders": false,
+	"files.autoSave": "afterDelay",
 	"files.exclude": {
 		"**/.git": true,
 		"**/.svn": true,
@@ -51,10 +54,10 @@
 		"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
 	},
 
-	"files.autoSave": "afterDelay",
 	"git.autoRepositoryDetection": false,
 	"telemetry.telemetryLevel": "crash",
 	"zenMode.hideActivityBar": false,
 	"security.workspace.trust.banner": "never",
 	"extensions.ignoreRecommendations": true,
+	"explorer.confirmDelete": false,
 }
