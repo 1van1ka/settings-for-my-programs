@@ -17,9 +17,8 @@
 	"window.commandCenter": false,
 	"window.restoreFullscreen": true,
 	
-	"workbench.activityBar.location": "top",
+	"workbench.activityBar.location": "hidden",
 	"workbench.layoutControl.enabled": false,
-	"workbench.sideBar.location": "left",
 	"workbench.iconTheme": "gruvbox-icon-theme",
 	"workbench.startupEditor": "none",
 	
@@ -27,7 +26,8 @@
 	"terminal.integrated.fontSize": 17,
 	"terminal.integrated.lineHeight": 1.1,
 	"terminal.integrated.fontFamily": "Cascadia Code",
-	
+	"terminal.integrated.hideOnStartup": "always",
+
 	"breadcrumbs.enabled": false,
 	
 	"explorer.compactFolders": false,
@@ -60,4 +60,5 @@
 	"security.workspace.trust.banner": "never",
 	"extensions.ignoreRecommendations": true,
 	"explorer.confirmDelete": false,
+	"python.createEnvironment.trigger": "off",
 }
