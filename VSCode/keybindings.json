@@ -1,13 +1,28 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "command": "workbench.view.explorer",
-        "key": "ctrl+shift+b"
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
     },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build",
+    },
+    {
+        "key": "ctrl+shift+w",
+        "command": "-workbench.action.closeWindow"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
+    },
+    
+
+    
+
     {
         "command": "terminal.focus",
         "key": "ctrl+shift+j",
-        "when": "editorTextFocus"
     },
     {
         "command": "workbench.action.focusActiveEditorGroup",
@@ -16,17 +31,33 @@
     },
     {
         "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
-    },
-    {
         "command": "runCommands",
-        "key": "ctrl+alt+n",
         "args": {
             "commands": [
                 "code-runner.run",
                 "terminal.focus"
-            ]
+            ],
         },
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus"
     }
 ]
