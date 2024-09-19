@@ -16,10 +16,30 @@
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
     },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+        "when": "!activeEditorGroupEmpty"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+        "when": "inEditorsPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "-workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+        "when": "!activeEditorGroupEmpty"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
+        "when": "inEditorsPicker && inQuickOpen"
+    },
     
-
     
-
+    
+    
     {
         "command": "terminal.focus",
         "key": "ctrl+shift+j",
@@ -53,11 +73,19 @@
     {
         "key": "a",
         "command": "explorer.newFile",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "shift+a",
         "command": "explorer.newFolder",
-        "when": "filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "workbench.action.previousEditor"
     }
 ]
