@@ -1,0 +1,91 @@
+{
+	"auto_update_extensions": {
+		"discord-presence": false
+	},
+	"theme": "VSCode Dark Modern",
+	"ui_font_size": 15,
+	"buffer_font_size": 22,
+	"buffer_line_height": {
+		"custom": 1.2
+	},
+	"autosave": "on_focus_change",
+	"relative_line_numbers": false,
+	"show_wrap_guides": false,
+	"ui_font_family": "Cascadia Code",
+	"buffer_font_family": "Cascadia Code",
+	"gutter": {
+		"code_actions": false,
+		"folds": false
+	},
+	"enable_language_server": true,
+	"lsp": {
+		"pyright": {
+			"settings": {
+				"python.analysis": {
+					"diagnosticMode": "workspace",
+					"typeCheckingMode": "strict"
+				},
+				"python": {
+					"pythonPath": ".venv/bin/python"
+				}
+			}
+		},
+		"clangd": {
+			"binary": {
+				"path": "C:/msys64/mingw64/bin/clangd.exe",
+				"arguments": ["--function-arg-placeholders=0"]
+			}
+		}
+	},
+	"tab_size": 4,
+	"hard_tabs": true,
+	"confirm_quit": true,
+	"toolbar": {
+		"breadcrumbs": false,
+		"selections_menu": false,
+		"quick_actions": false
+	},
+	"scrollbar": {
+		"git_diff": false
+	},
+	"scroll_sensitivity": 1.1,
+	"project_panel": {
+		"button": false,
+		"default_width": 260,
+		"indent_size": 15
+	},
+	"outline_panel": {
+		"button": false
+	},
+	"tab_bar": {
+		"show_nav_history_buttons": false
+	},
+	"tabs": {
+		"git_status": true
+	},
+	"git": {
+		"inline_blame": {
+			"enabled": true
+		}
+	},
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
+	"terminal": {
+		"line_height": {
+			"custom": 1.2
+		},
+		"default_height": 240,
+		"button": false,
+		"copy_on_select": true,
+		"toolbar": {
+			"title": false
+		}
+	},
+	"assistant": {
+		"version": "2",
+		"enabled": false,
+		"button": false
+	}
+}

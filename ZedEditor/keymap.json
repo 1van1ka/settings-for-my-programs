@@ -1,0 +1,41 @@
+[
+	{
+		"context": "Workspace",
+		"bindings": {
+			"ctrl-escape": "workspace::ToggleBottomDock",
+			"cmd-shift-e": "workspace::ToggleLeftDock",
+			"cmd-shift-a": "workspace::ToggleRightDock",
+			"shift-z": "workspace::ToggleZoom",
+			"cmd-shift-ctrl-a": "assistant::ToggleFocus",
+			"cmd-shift-ctrl-e": "project_panel::ToggleFocus",
+			"cmd-\\": "workspace::NewTerminal"
+		}
+	},
+	{
+		"context": "Editor",
+		"bindings": {
+			"ctrl-shift-tab": "pane::ActivatePrevItem",
+			"ctrl-shift-e": "project_panel::ToggleFocus",
+			"ctrl-tab": "pane::ActivateNextItem",
+			"cmd-b": "editor::GoToDefinition",
+			"cmd-shift-b": "editor::GoToTypeDefinition",
+			"cmd-shift-d": "editor::DuplicateLineDown"
+		}
+	},
+	{
+		"context": "Terminal",
+		"bindings": {
+			"ctrl-shift-e": "editor::ToggleFoldRecursive",
+			"ctrl-shift-tab": "pane::ActivatePrevItem",
+			"ctrl-tab": "pane::ActivateNextItem"
+		}
+	},
+	{
+		"context": "ProjectPanel",
+		"bindings": {
+			"ctrl-shift-e": "editor::ToggleFoldRecursive",
+			"a": "project_panel::NewFile",
+			"shift-a": "project_panel::NewDirectory"
+		}
+	}
+]
