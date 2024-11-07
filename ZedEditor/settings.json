@@ -64,8 +64,9 @@
 		"git_status": true
 	},
 	"git": {
+		"git_gutter": "tracked_files",
 		"inline_blame": {
-			"enabled": true
+			"enabled": false
 		}
 	},
 	"telemetry": {
